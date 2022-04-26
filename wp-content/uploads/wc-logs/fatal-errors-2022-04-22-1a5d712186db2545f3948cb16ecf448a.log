@@ -1,0 +1,8 @@
+2022-04-22T07:31:01+00:00 CRITICAL Uncaught Error: Call to a member function get_cart_contents_total() on null in C:\MAMP\htdocs\labb-2\wp-content\plugins\woocommerce-paypal-payments\modules\ppcp-button\src\Assets\SmartButton.php:1127
+Stack trace:
+#0 C:\MAMP\htdocs\labb-2\wp-content\plugins\woocommerce-paypal-payments\modules\ppcp-button\src\Assets\SmartButton.php(378): WooCommerce\PayPalCommerce\Button\Assets\SmartButton->is_cart_price_total_zero()
+#1 C:\MAMP\htdocs\labb-2\wp-content\plugins\woocommerce-paypal-payments\modules\ppcp-button\src\Assets\SmartButton.php(195): WooCommerce\PayPalCommerce\Button\Assets\SmartButton->render_button_wrapper_registrar()
+#2 C:\MAMP\htdocs\labb-2\wp-content\plugins\woocommerce-paypal-payments\modules\ppcp-button\src\ButtonModule.php(56): WooCommerce\PayPalCommerce\Button\Assets\SmartButton->render_wrapper()
+#3 C:\MAMP\htdocs\labb-2\wp-includes\class-wp-hook.php(307): WooCommerce\PayPalCommerce\Button\ButtonModule::WooCommerce\PayPalCommerce\Button\{closure}(Object(WP))
+#4 C:\MAMP\htdocs\labb-2\wp-includes\c in C:\MAMP\htdocs\labb-2\wp-content\plugins\woocommerce-paypal-payments\modules\ppcp-button\src\Assets\SmartButton.php on line 1127
+

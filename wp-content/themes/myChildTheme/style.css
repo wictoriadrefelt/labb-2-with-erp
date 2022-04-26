@@ -1,0 +1,23 @@
+/* 
+
+Theme Name: myChildTheme
+Template: storefront
+
+
+
+
+*/
+
+
+body {
+    background-color: whitesmoke;
+}
+
+.line {
+    color: black; 
+}
+
+
+li {
+    list-style: none; 
+}
