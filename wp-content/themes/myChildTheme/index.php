@@ -1,5 +1,5 @@
 <?php 
 
-echo 'hello';
+// hello darkness my old friend
 
 ?> 

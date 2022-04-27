@@ -45,6 +45,12 @@ defined( 'ABSPATH' ) || exit;
 
 				<li class="woocommerce-order-overview__order order">
 					<?php esc_html_e( 'Order number:', 'woocommerce' ); ?>
+					<?php
+                    //hey let's echo out success if the order is completed 
+					$timer = 0; 
+					for($timer; $timer < 10; $timer++){
+						echo 'success</br>'; 
+					} ?>
 					<strong><?php echo $order->get_order_number(); // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped ?></strong>
 				</li>
 
